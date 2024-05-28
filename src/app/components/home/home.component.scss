@@ -1,0 +1,45 @@
+@import "../../../color-variables.scss";
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto",sans-serif;
+    //padding: 0 70px;
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: $secundary-text;
+    }
+    h1 {
+        font-size: 72px;
+        font-weight: 900;
+        color: $primary-text;
+    }
+}
+.benefit-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    //padding: 0 70px;
+
+    .benefit-data {
+        border-bottom: 10px solid $secundary-color;
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 60px;
+        font-weight: 600;
+        font-family: "Roboto",sans-serif;
+        color: $primary-text;
+    }
+}
+
+@media (min-width: 1080px) {
+    .main-section {
+        flex-direction: row;
+    }
+}
