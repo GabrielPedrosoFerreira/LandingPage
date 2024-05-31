@@ -58,6 +58,12 @@ main{
     }
 }
 
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 1080px) {
     .main-section {
         flex-direction: row;
